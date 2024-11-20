@@ -1,0 +1,32 @@
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 960px;
+}
+
+.box {
+    background-color: rgba(100, 100, 100, 0.5);
+    color: white;
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 150px;
+    width: 150px;
+    margin: 100px 25px;
+    text-align: center;
+    vertical-align: top;
+}
+
+@media (max-width: 960px) {
+    .box {
+        background-color: blue;
+    }
+}
+
+@media (max-width: 650px) {
+    .box {
+        background-color: red;
+        line-height: 100px;
+        width: 100px;
+    }
+}
