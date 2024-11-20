@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 60px;
+}
+
+.grid-item {
+    display: block;
+    margin: auto;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+section {
+    padding: 80px;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+      }
+}
